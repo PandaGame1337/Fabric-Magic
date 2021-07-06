@@ -23,7 +23,7 @@ class Product(models.Model):
     title = models.CharField(max_length=225, verbose_name='Название')
     slug = models.SlugField(unique=True)
     article = models.CharField(max_length=225, verbose_name='Артикул')
-    photo = models.ImageField()
+    photo = models.ImageField(upload_to='')
     price = models.DecimalField(max_digits=9, decimal_places=2, verbose_name='Цена')
     description = models.TextField(verbose_name='Описание')
     
