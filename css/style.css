@@ -1,9 +1,8 @@
  :root{
     --text-color:#000000;
     --text-light:#515151;
-    --color-accent: #FFB4B4;
+    --color-accent: #FC9E9E;
     --color-turquoise: #78CCDE;
-
 }
 
 * {
@@ -120,11 +119,37 @@
 
   /* slider */
 
-  .top-slider{
-    width: 100%;
+  .top-banner{
+    background: url(../images/index/main-banner.png) center no-repeat;
     height: 500px;
-    background-color: #FFECEC;
-    margin-top: 22px;
+  }
+  .banner_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin: 22px 0 0 0;
+    padding-top: 12%;
+  }
+  .banner_text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+  }
+  .banner_btn{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 15px 65px;
+    border-radius: 0;
+  }
+  .banner_btn:hover{
+    background: rgba(255, 255, 255, 0.15)
   }
 
   /* end slider */
