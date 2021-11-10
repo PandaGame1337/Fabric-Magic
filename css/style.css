@@ -204,7 +204,7 @@
     justify-content: center;
   }
   .banner_block{
-    margin: 7.5% 30px;
+    margin: 100px 30px;
     width: 500px;
     height: 100px;
     background: rgba(255, 255, 255, 0.5);
@@ -225,6 +225,32 @@
     margin: 12px 0;
   }
   /* end bot banner */
+
+  /* index map */
+  .map-title-style{
+    margin: 0 25px
+  }
+  .map_adress{
+    margin: 0;
+  }
+  .map_wrapper{
+    display: flex;
+  }
+  .map_wrapper_block-style{
+    padding-bottom: 70px;
+  }
+  .map_wrapper_style{
+    margin: 25px;
+  }
+  .map_img{
+    margin-right: 10px;
+    padding-bottom: 1px;
+  }
+  .map_block{
+    max-width: 860px;
+    max-height: 310px;
+  }
+  /* end index map */
 
   /* advantages */
   .advantages-index{
