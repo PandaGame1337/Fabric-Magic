@@ -199,6 +199,64 @@
   }
   /* end category */
 
+  /* bot banner */
+  .bot-banner{
+    background: url(../images/index/bot-banner.png) center no-repeat;
+    height: 290px;
+  }
+  .banner_wrapper{
+    display: flex;
+    justify-content: center;
+  }
+  .banner_block{
+    margin: 100px 30px;
+    width: 500px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+  }
+  .banner_info{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text-color);
+    margin: 0;
+  }
+  .banner_info_left{
+    margin: 20px 0;
+  }
+  .banner_info_right{
+    margin: 12px 0;
+  }
+  /* end bot banner */
+
+  /* index map */
+  .map-title-style{
+    margin: 0 25px
+  }
+  .map_adress{
+    margin: 0;
+  }
+  .map_wrapper{
+    display: flex;
+  }
+  .map_wrapper_block-style{
+    padding-bottom: 70px;
+  }
+  .map_wrapper_style{
+    margin: 25px;
+  }
+  .map_img{
+    margin-right: 10px;
+    padding-bottom: 1px;
+  }
+  .map_block{
+    max-width: 860px;
+    max-height: 310px;
+  }
+  /* end index map */
+
   /* advantages */
   .advantages-index{
     display: grid;
