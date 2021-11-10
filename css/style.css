@@ -41,6 +41,11 @@
     color: white;
   }
 
+  .btn-main:hover{
+    background-color: var(--color-accent);
+    color: white;
+  }
+
   /* header */
 
   .navbar-top{
@@ -232,12 +237,29 @@
     gap: 20px;
     grid-template-rows: 431px;
   }
-
+  .recommendation-block-card-sale{
+    width: 60px;
+    height: 30px;
+    background-color: var(--color-accent);
+    color: white;
+    position: absolute;
+  }
+  .recommendation-block-card-sale p{
+    position: relative;
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 12px;
+  }
   .recommendation-block-card-text_name{
     font-size: 16px;
     color: var(--text-light);
     margin-top: 4px;
     margin-bottom: 0;
+  }
+
+  .recommendation-block-card-text_name:hover{
+    color: var(--color-accent);
   }
   .recommendation-block-card-text_art{
     margin-top: 7px;
@@ -245,23 +267,28 @@
     color: var(--text-light);
     font-size: 14px;
   }
-  .recommendation-block-card-down_price{
-    font-size: 20px;
-    color: var(--text-color);
-    margin: 0;
-  }
-
   .recommendation-block-card-down{
     display: flex;
     justify-content: space-between;
   }
-
+  .recommendation-block-card-down_price{
+    font-size: 20px;
+    color: var(--text-color);
+    margin: 5px 0 0 0;
+    
+  }
+  .recommendation-block-card-down_form{
+    display: flex;
+  }
   .recommendation-block-card-down-buy{
+    margin-left: 10px;
     font-size: 18px;
     font-weight: 600;
-    padding: 6px 9px;
+    padding: 9px 9px 5px 9px;
     text-align: center;
   }
+
+  
   /* end recommendation-block */
   /* footer */
   .nav-right-item{
