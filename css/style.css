@@ -488,7 +488,6 @@
 #slider-range{
   margin-bottom: 20px;
 }
-
   /* end catalog page */
 
   /* about store */
@@ -552,9 +551,7 @@
     color: var(--text-color);
   }
   /* end about store */
-<<<<<<< HEAD
 
-=======
   /* payments block */
   .payments-steps{
     display: flex;
@@ -604,4 +601,4 @@
     margin: 10px 0;
   }
   /* end payments block */
->>>>>>> 79a3fd81653c0ca50e8a740747b1e7f27cac53cf
+
