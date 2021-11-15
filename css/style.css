@@ -1,13 +1,13 @@
- :root{
-    --text-color:#000000;
-    --text-light:#515151;
-    --color-accent: #FC9E9E;
-    --color-turquoise: #78CCDE;
+:root{
+  --text-color:#000000;
+  --text-light:#515151;
+  --color-accent: #FC9E9E;
+  --color-turquoise: #78CCDE;
 }
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
   
   *:before,
   *:after {
@@ -384,14 +384,107 @@
     width: 314px;
     padding: 32px 16px;
   }
+  .catalog-filter_search{
+    height: 40px;
+    width: 282px;
+  }
   .catalog-filter_search input{
     position: absolute;
     border: 1px solid #D7D7D7;
     height: 40px;
     width: 282px;
+    padding: 6px 3px;
+  }
+
+  .catalog-filter_search input:focus{
+    outline: none;
   }
 
   .catalog-filter_search button{
+    cursor: pointer;
     position: relative;
+    left: 240px;
+    top: 6px;
+    border: none;
+    background: white;
   }
-  /* end catalog page */
+
+  .accordion-filter {
+    background-color: white;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-light);
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .active, .accordion-filter:hover {
+   color: var(--color-accent);
+  }
+
+  .panel-filter {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom: 1px solid #D7D7D7;
+  }
+
+  .accordion-filter:after {
+    content: url(../images/icon/triangle-down.svg); 
+    float: right;
+    margin-left: 5px;
+  }
+
+.active-filter:after {
+  content: url(../images/icon/triangle-up.svg); 
+}
+
+.panel-filter_ul{
+  padding-left: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.panel-filter_li{
+ margin-top: 8px;
+  color: var(--text-light);
+}
+
+.panel-filter_li a:hover{
+  color: var(--color-accent);
+ }
+
+.panel-filter_li::marker{
+  color:var(--color-turquoise);
+}
+
+.panel-filter-money{
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-filter_input{
+  margin-top: 16px;
+  width: 62px;
+  height: 24px;
+  border: 1px solid var(--color-turquoise);
+  margin-bottom: 22px;
+  font-size: 14px;
+  padding: 6px;
+}
+
+.panel-filter_input:focus{
+  outline: none;
+  border: 1px solid var(--color-accent);
+}
+
+#slider-range{
+  margin-bottom: 20px;
+}
+  /* end catalog page */ 
