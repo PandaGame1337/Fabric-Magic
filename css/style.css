@@ -129,6 +129,19 @@
     text-align: center;
     font-weight: 500;
   }
+  .breadcrumb-navigation{
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .breadcrumb-navigation a{
+    font-size: 12px;
+    
+    color: var(--text-color);
+  }
+
+  .breadcrumb-navigation span{
+    color: var(--color-accent);
+  }
 
   /* end header */
 
@@ -360,3 +373,25 @@
     color: var(--text-light);
   }
   /* end footer */
+
+
+  /* catalog page */
+  .page-catalog{
+    display: flex;
+  }
+  .catalog-filter{
+    border: 1px solid #D7D7D7;
+    width: 314px;
+    padding: 32px 16px;
+  }
+  .catalog-filter_search input{
+    position: absolute;
+    border: 1px solid #D7D7D7;
+    height: 40px;
+    width: 282px;
+  }
+
+  .catalog-filter_search button{
+    position: relative;
+  }
+  /* end catalog page */
