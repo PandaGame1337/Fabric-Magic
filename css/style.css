@@ -256,7 +256,7 @@
     display: flex;
   }
   .map_wrapper_block-style{
-    padding-bottom: 70px;
+    margin-bottom: 40px;
   }
   .map_wrapper_style{
     margin: 25px;
@@ -435,6 +435,7 @@
     border-bottom: 1px solid #D7D7D7;
   }
 
+
   .accordion-filter:after {
     content: url(../images/icon/triangle-down.svg); 
     float: right;
@@ -487,4 +488,76 @@
 #slider-range{
   margin-bottom: 20px;
 }
-  /* end catalog page */ 
+
+  /* end catalog page */
+
+  /* about store */
+  .title-h1{
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--text-color);
+    margin-bottom: 40px;
+  }
+  .about-store_text_block{
+    margin-bottom: 40px;
+  }
+  .about-store_text{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text-color);
+  }
+  .about-advantages{
+    display: grid;
+    grid-template-columns: repeat(3,330px);
+    grid-template-rows: 250px;
+    gap: 155px;
+    margin-bottom: 40px;
+  }
+  .about-advantahes_block{
+    border: 1px solid #D7D7D7;
+    text-align: center;
+  }
+  .about-adv_img{
+    margin-top: 25px;
+  }
+  .about-adv_title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: var(--text-color);
+  }
+  .about-adv_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--text-light);
+    margin: 10px;
+  }
+  .about-pluses{
+    margin-bottom: 40px;
+  }
+  .about-pluses_style_grid{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: 40px;
+  }
+  .about-pluses_style{
+    display: flex;
+    margin-left: 150px;
+  }
+  .about-pluses_img{
+    margin-right: 5px;
+  }
+  .about-pluses-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--text-color);
+  }
+  /* end about store */
+
