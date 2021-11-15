@@ -495,8 +495,6 @@
   .title-h1{
     text-align: center;
     font-size: 28px;
-    font-style: normal;
-    font-weight: normal;
     color: var(--text-color);
     margin-bottom: 40px;
   }
@@ -505,8 +503,6 @@
   }
   .about-store_text{
     text-align: center;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     color: var(--text-color);
@@ -526,8 +522,6 @@
     margin-top: 25px;
   }
   .about-adv_title{
-    font-style: normal;
-    font-weight: normal;
     font-size: 24px;
     color: var(--text-color);
   }
@@ -554,10 +548,60 @@
     margin-right: 5px;
   }
   .about-pluses-text{
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     color: var(--text-color);
   }
   /* end about store */
+<<<<<<< HEAD
 
+=======
+  /* payments block */
+  .payments-steps{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .payments-steps_style{
+    width: 330px;
+    height: 80px;
+    display: flex;
+    border: 1px solid #D7D7D7;
+    align-items: center;
+  }
+  .payments-steps_block-img{
+    margin: 15px 22px 15px 47px;
+    width: 50px;
+    height: 50px;
+  }
+  .payments-info-block {
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    margin-bottom: 40px;
+  }
+  .payments-block_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .payments-block-text_info{
+    width: 450px;
+    font-size: 16px;
+    color: var(--text-color);
+  }
+  .payments-block-adress{
+    font-size: 16px;
+    color: var(--text-light);
+  }
+  .payments-block-left{
+    margin-left: 110px;
+    margin-bottom: 20px;
+  }
+  .payments-block-right {
+    margin-right: 110px;
+  }
+  .payments-pluses-text{
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  /* end payments block */
+>>>>>>> 79a3fd81653c0ca50e8a740747b1e7f27cac53cf
