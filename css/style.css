@@ -380,6 +380,7 @@
     display: flex;
   }
   .catalog-filter{
+    margin-right: 15px;
     border: 1px solid #D7D7D7;
     width: 314px;
     padding: 32px 16px;
@@ -488,6 +489,90 @@
 #slider-range{
   margin-bottom: 20px;
 }
+
+.panel-filter-material{
+  margin-top: 16px;
+}
+
+.panel-filter-material-last{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.custom-checkbox input {
+  -webkit-appearance: none; 
+  display: flex;
+}
+
+.checkbox {
+  cursor: pointer; 
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--color-turquoise);
+}
+
+.custom-checkbox input:checked ~ .checkbox {
+  background: var(--color-turquoise);
+  border: 1px solid white;
+}
+
+.checkbox-text{
+  margin: 0 25px;
+  font-size: 14px;
+  color: var(--text-light);
+}
+.reset-the-filter{
+  cursor: pointer;
+  /* margin: 22px ;  Сделайте */
+  padding: 6px 18px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: var(--color-turquoise);
+  color: white;
+  border: none;
+}
+
+  .reset-the-filter:hover{
+    background-color: var(--color-accent);
+  }
+  .main-h1{
+    margin: 0;
+    padding-bottom: 24px;
+    font-size: 28px;
+    border-bottom: 1px solid #D7D7D7;
+  }
+
+  .main-catalog-card{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3,309px);
+    grid-template-rows: 431px;
+    gap: 22px;
+  }
+  .tabulation-catalog-main{
+    margin-left: 20%;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+  }
+  .tabulation-catalog{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(7,34px);
+    gap: 8px;
+  }
+  .tabulation-catalog-box{
+    width: 34px;
+    height: 34px;
+    border: 1px solid var(--color-turquoise);
+    text-align: center;
+  }
+
+  .tabulation-catalog-text{
+    margin: 6px 0 0 0;
+    font-size: 18px;
+  }
   /* end catalog page */
 
   /* about store */
