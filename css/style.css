@@ -685,5 +685,34 @@
     font-size: 16px;
     margin: 10px 0;
   }
+  .payments-var-block{
+    width: 400px;
+    height: 365px;
+    border: 1px solid #D7D7D7;
+    text-align: center;
+  }
+  .payemnts-var-title{
+    font-size: 28px;
+    margin-bottom: 20px;  
+  }
+  .payments-var-img{
+    margin-bottom: 20px;
+  }
+  .payments-var-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text-light);
+    width: 285px;
+    margin: 15px auto;
+  }
+  .payments-cards-block{
+    width: 530px;
+    height: 225px;
+    border: 1px solid #D7D7D7;
+    text-align: center;
+  }
+  .payments-cards-style{
+    margin: 34px auto;
+  }
   /* end payments block */
 
